@@ -1,0 +1,39 @@
+.entites__wrraper {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.buttons__choice {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons__choice button {
+    cursor: pointer;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    font-size: 16px;
+}
+
+@media (max-width : 480px) {
+    .entites__wrraper {
+        flex-direction: column;
+    }
+    .entites__wrraper img {
+        width: 150px;
+        justify-content: center;
+    }
+    .entites__wrraper > div {
+        display: flex;
+        justify-content: center;
+    }
+
+}
